@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Embalsa</ion-title>
+    
+  </ion-navbar> 
+  <shrinking-segment-header [scrollArea]="myContent" headerHeight="100">
+        <div class="presentacion" text-center>
+          	<div text-center><button ion-button round>Nuevo Itinerario</button></div>	
+        </div>
+   </shrinking-segment-header> 
+</ion-header>
+
+<ion-content padding #myContent>
+
+  <!-- <ion-fab right bottom>
+    <button style="background-color: #016648; color:w" ion-fab (click)="itinerario()"><ion-icon ios="ios-add" md="md-add"></ion-icon></button>
+  </ion-fab>  -->
+  
+
+  <div class="conferencias">
+    <h3>Valle Grande</h3>
+    <p>Información, paquetes, itinerario</p>
+  </div>
+
+  <div class="talleres">
+    <h3>Cañon del Atuel</h3>
+  </div>  
+
+ <div class="social">
+    <h3>Los Reyunos</h3>
+  </div>
+</ion-content>

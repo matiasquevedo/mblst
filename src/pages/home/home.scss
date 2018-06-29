@@ -1,0 +1,98 @@
+page-home {
+	.master{		
+	}
+
+	.presentacion{
+		margin-top: 3% !important;
+	}
+
+	.presentacion .bItinerario{		
+		position: fixed;
+	}
+	
+	.conferencias{
+		position: relative;
+		  width: 100%;
+		  height: 34%;
+		  background: url("../assets/imgs/2.jpg") center center no-repeat;
+		  background-size: cover;
+	}
+
+	.talleres{
+		margin-top: 0px;
+		position: relative;
+		  width: 100%;
+		  height: 33%;
+		  background: url("../assets/imgs/5.jpg") center center no-repeat;
+		  background-size: cover;
+
+
+	}
+	.social{
+		margin-top: 0px;
+		position: relative;
+		  width: 100%;
+		  height: 35%;
+		  background: url("../assets/imgs/9.jpg") center center no-repeat;
+		  background-size: cover;
+	}
+
+
+
+	.conferencias, .talleres, .social{
+		font-family: Osky;
+		max-width: 100% !important;
+		&:before {
+		    content: '';
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background-image: linear-gradient(to bottom,transparent,#000000);
+			opacity: .7; 
+		}
+		
+	}
+
+	.conferencias h3, .talleres h3, .social h3{
+		color: white;
+		position: relative;
+		top: 65%;
+		left: 5%;
+		font-size: 2.0em;
+	}
+
+	.conferencias p, .talleres p, .social p{
+		color: white;
+		position: relative;
+		top: 55%;
+		left: 5%;
+		font-size: 1em;
+	}
+
+	.scroll-content{
+	    padding:0px 0px 0px 0px !important;
+	    margin-left: 0px !important;
+	}
+
+	shrinking-segment-header {
+ 
+        background-color: transparent;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+ 
+        img {
+            border-radius: 50%;
+            width: 75px;
+            height: auto;
+            margin-right: 15px;
+        }
+ 
+    }
+
+
+
+}
